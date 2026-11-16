@@ -5,20 +5,5 @@
   ],
   "automerge": true,
   "automergeType": "pr",
-  "platformAutomerge": true,
-  "major": {
-    "automerge": false
-  },
-  "packageRules": [
-    {
-      "description": "Automerge non-major updates",
-      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
-      "automerge": true
-    },
-    {
-      "description": "Require manual review for major updates",
-      "matchUpdateTypes": ["major"],
-      "automerge": false
-    }
-  ]
+  "platformAutomerge": true
 }
